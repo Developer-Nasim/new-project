@@ -1,0 +1,457 @@
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-area nav ul li a {
+        font-size: 15px; 
+        margin-left: 20px;
+    }
+    .logo-area a img {
+        filter: brightness(30.5);
+        width: 180px;
+    }
+    .header-area a.theme-btn { 
+        font-size: 16px;
+        padding: 14px 30px;
+        padding-bottom: 10px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+    }
+    .header-area .col-lg-1 {
+        top: 32px;
+        left: -10px;
+    }
+    .nice-select { 
+        width: 40px; 
+        font-size: 17px; 
+    }
+    .hero-wrp h1 {
+        font-size: 64px;  
+    }
+    .sing-step .stp-img img {
+        min-width: 200px !important;
+        display: block;
+        width: 100%;
+    }
+    .sing-step .stp-img h1 { 
+        top: -120px;
+        right: -20px;
+        font-size: 160px;  
+    }
+    .sing-step .stp-img { 
+        margin-right: 20px;
+    } 
+    .m-blk h3 {
+        font-size: 46px; 
+        margin-bottom: 25px;
+    }
+    .m-blk { 
+        padding: 40px 70px 40px 70px; 
+    }
+    .mice-area {
+        margin: 80px 0;
+        padding-top: 20px;
+        padding-bottom: 40px; 
+    }
+    .mice-wrp h2 {
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    .mice-area:after { 
+        width: 63%; 
+    }
+    .mice-wrp a {
+        margin-top: 25px;
+    }
+    .m-blk span { 
+        margin-bottom: 27px; 
+        margin-top: -10px;
+        font-weight: 400;
+    }
+    .footer-links ul li a { 
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .last-likns a.fst {
+        margin-right: 20px;
+        padding-right: 25px; 
+        line-height: 15px;
+    }
+    .footer-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background: #e0dcd6;
+    }
+
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-area a img { 
+        width: 150px;
+    } 
+    .hero-item {
+        padding-top: 230px;
+        padding-bottom: 100px; 
+    }
+    .steps-area .mr-55 {
+        margin-top: 100px;
+    }
+    .sing-step .stp-img h1 { 
+        top: -145px;
+        right: -22px;
+        font-size: 185px; 
+    }
+    .memorise-wrp .pr_0 {
+        padding-right: 15px;
+    }
+    .memorise-wrp .pl_0 {
+        padding-left: 15px;
+    }
+    .memorise-wrp:before { 
+        position: relative;
+        width: 100%;
+        height: 375px; 
+        background-size: cover;
+        top: 0;
+        right: 0; 
+        display: block;
+    }
+    .memories-img { 
+        margin-bottom: -1px;
+    } 
+    .m-blk{ 
+        margin-top: 50px;
+    } 
+    .mice-area:before { 
+        position: relative;
+        width: 100%;
+        height: 400px;  
+        display: block;
+        margin-bottom: 40px;
+    }
+    .mice-area {
+        margin: 0px 0;
+        padding-top: 80px;
+        padding-bottom: 80px; 
+    }
+    .mice-wrp span {
+        font-weight: 500; 
+        margin-bottom: 15px;
+    }
+    .mice-wrp h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    } 
+    .mice-wrp a {
+        margin-top: 20px;
+    }
+    .contact-right {
+        text-align: left;
+        margin-top: 15px;
+    }
+    .contact-area {
+        padding: 70px 0;
+        padding-top: 0;
+    }
+    .contact-area form {
+        margin-top: 30px;
+    }
+    .contact-area form input, textarea { 
+        padding: 7px 2px;
+        margin-bottom: 15px; 
+    }
+    textarea {
+        height: 100px;
+    }
+    .agrre-texts {
+        margin-top: -90px;
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    .footer-links ul li a { 
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    .footer-social ul li a {
+        display: block;
+        font-size: 20px;
+        margin-right: 15px;
+    } 
+    .footer-social ul li span svg {
+        width: 19px;
+        margin-top: -10px;
+    }
+    .last-likns a {
+        font-size: 12px;
+    }
+    .last-likns a.fst {
+        margin-right: 20px;
+        padding-right: 25px;
+        border-right: 2px solid #000;
+        line-height: 15px;
+    }
+    .footer-links ul { 
+        margin-top: 10px;
+    }
+    .footer-area {
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .logo-area a img { 
+        width: 110px;
+    } 
+    .hero-item {
+        padding-top: 180px;
+        padding-bottom: 60px;
+    }
+    .steps-area .mr-55 {
+        margin-top: 100px;
+    }
+    .sing-step .stp-img h1 {
+        top: -145px;
+        right: 0px;
+        font-size: 150px;
+    }
+    .memorise-wrp .pr_0 {
+        padding-right: 15px;
+    }
+    .memorise-wrp .pl_0 {
+        padding-left: 15px;
+    }
+    .memorise-wrp:before { 
+        position: relative;
+        width: 100%;
+        height: 190px; 
+        background-size: cover;
+        top: 0;
+        right: 0; 
+        display: block;
+    }
+    .memories-img { 
+        margin-bottom: -1px;
+    } 
+    .m-blk{ 
+        margin-top: 20px;
+        padding: 30px 20px 30px 30px;
+    } 
+    .mice-area:before { 
+        position: relative;
+        width: 100%;
+        height: 400px;  
+        display: block;
+        margin-bottom: 40px;
+    }
+    .mice-area {
+        margin: 0px 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mice-wrp span {
+        font-weight: 500; 
+        margin-bottom: 15px;
+    }
+    .mice-wrp h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .mice-wrp a {
+        margin-top: 20px;
+    }
+    .contact-right {
+        text-align: left;
+        margin-top: 15px;
+    }
+    .contact-area {
+        padding: 95px 0;
+        padding-top: 0;
+    }
+    .contact-area form {
+        margin-top: 30px;
+    }
+    .contact-area form input, textarea { 
+        padding: 7px 2px;
+        margin-bottom: 15px; 
+    }
+    textarea {
+        height: 75px;
+    }
+    .agrre-texts {
+        margin-top: -40px;
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    .footer-links ul li a { 
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    .footer-social ul li a {
+        display: block;
+        font-size: 20px;
+        margin-right: 15px;
+    } 
+    .footer-social ul li span svg {
+        width: 19px;
+        margin-top: -10px;
+    }
+    .last-likns a {
+        font-size: 12px;
+    }
+    .last-likns a.fst {
+        margin-right: 20px;
+        padding-right: 25px;
+        border-right: 2px solid #000;
+        line-height: 15px;
+    }
+    .footer-links ul { 
+        margin-top: 10px;
+    }
+    .footer-area {
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+    .hero-wrp h1 {
+        font-size: 32px; 
+        margin-bottom: 30px;
+    }
+    .steps-top {
+        display: block; 
+        margin: 40px 0;
+    }
+    .steps-top img {
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .title-heading {
+        font-size: 38px; 
+    } 
+    .sing-step {
+        display: block;
+    }
+    body{
+        font-size: 16px;
+    }
+    .steps-top p {
+        font-size: 16px; 
+    }
+    p {
+        line-height: 20px;
+    }
+    .title {
+        margin-bottom: 80px;
+    }
+    .sing-step .stp-img { 
+        margin-right: 0;
+    }
+    .sing-step .stp-img img {
+        min-width: 100%;
+        display: block;
+        width: 100%;
+    }
+    .sing-step .stp-wrp h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .sing-step .stp-wrp {
+        padding-top: 15px;
+    }
+    .theme-btn { 
+        padding: 10px 20px;
+        padding-bottom: 8px; 
+        line-height: 16px;
+        font-size: 16px; 
+    } 
+    .m-blk h3 {
+        font-size: 32px;  
+        margin-bottom: 25px;
+    }
+    .m-blk span { 
+        margin-bottom: 20px; 
+        margin-top: -5px; 
+    }
+    .m-blk a {
+        margin-top: 10px;
+    }
+    .mice-area:before { 
+        height: 230px; 
+        margin-bottom: 35px;
+    }
+    .memorise-wrp.afcm:before { 
+        height: 190px;
+        background-position: left;
+    }
+    .contact-area .contact-left h2 {
+        font-size: 32px; 
+    }
+    .memorise-area.nexts {
+        margin-bottom: 60px;
+    }
+    button.theme-btn {
+        width: 115px;
+        height: 40px; 
+        position: relative;
+        top: 110px;
+    }
+    .agrre-texts .check_it {
+        margin-bottom: 5px;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-logo a img {
+        width: 140px;
+    }
+    .footer-logo a { 
+        margin-bottom: 25px;
+    }
+    .footer-social {
+        display: block;
+        text-align: center;
+        margin: 25px 0;
+    }
+    .footer-social .f-con {
+        width: 100%;
+    }
+    .footer-links ul {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .last-likns {
+        text-align: center;
+    }
+    .last-likns {
+        text-align: center;
+    }
+    .memories-img img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .banner-area img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .mobile-menu nav ul li a { 
+        font-size: 14px; 
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
