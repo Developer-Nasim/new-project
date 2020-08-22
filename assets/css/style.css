@@ -608,6 +608,10 @@ input[type="checkbox"]:checked + label:after {
   font-size: 18px;
   font-weight: 300;
 }
+input[type="date"] {
+  font-size: 18px;
+  font-weight: 300;
+}
 textarea{
   height: 130px;
 }
@@ -726,6 +730,16 @@ contact section END  && footer section START
   border-right: 2px solid #000;
   line-height: 15px;
 }
+.footer-logo p a {
+  display: inline-block;
+  margin: 0;
+}
+
+
+
+
+
+
 /* 
 footer section END
  */ 
